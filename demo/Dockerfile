@@ -1,3 +1,3 @@
 FROM amazoncorretto:21
-ADD target/chat-application-exec.jar app.jar
+ADD target/docker-application.jar app.jar
 ENTRYPOINT ["java","-jar","app.jar"]
